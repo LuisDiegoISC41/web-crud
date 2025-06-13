@@ -34,5 +34,5 @@ jobs:
       with:
         app-name: 'NOMBRE_DE_TU_APP_AZURE'  # cambia esto
         slot-name: 'production'
-        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+        publish-profile: ${{ secrets.AZUREAPPSERVICE_CLIENTID_6EF817626BFD49C8A8AF9AE1F376A74D }}
         package: '.'
